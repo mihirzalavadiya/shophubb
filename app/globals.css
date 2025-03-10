@@ -48,7 +48,7 @@
 @layer base {
   :root {
     --background: oklch(1 0 0);
-    --foreground: oklch(0.18 0.26 251.6);
+    --foreground: oklch(0.18 0.08 222.2);
     --card: oklch(1 0 0);
     --card-foreground: oklch(0.18 0.26 251.6);
     --popover: oklch(1 0 0);
@@ -76,7 +76,7 @@
 
   .dark {
     --background: oklch(0.18 0.26 251.6);
-    --foreground: oklch(0.98 0.01 250);
+    --foreground: oklch(0.98 0.02 210);
     --card: oklch(0.18 0.26 251.6);
     --card-foreground: oklch(0.98 0.01 250);
     --popover: oklch(0.18 0.26 251.6);
@@ -108,5 +108,14 @@
   }
   body {
     @apply bg-background text-foreground;
+  }
+}
+
+@layer utilities {
+  .header-button {
+    @apply cursor-pointer p-1 border border-transparent hover:border-white rounded-[2px];
+  }
+  .h1-bold {
+    @apply text-2xl font-bold lg:text-3xl;
   }
 }
