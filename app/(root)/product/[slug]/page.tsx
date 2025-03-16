@@ -10,7 +10,7 @@ import {
   getRelatedProductsByCategory,
 } from '@/lib/actions/product.actions';
 
-export async function generatedMetadata(props: {
+export async function generateMetadata(props: {
   params: Promise<{ slug: string }>;
 }) {
   const params = await props.params;
