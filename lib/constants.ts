@@ -4,3 +4,4 @@ export const APP_SLOGAN =
 export const APP_DESCRIPTION =
   process.env.NEXT_PUBLIC_APP_DESCRIPTION ||
   'ShopHubb is a platform that helps you find the best deals on the products you love.';
+export const PAGE_SIZE = Number(process.env.PAGE_SIZE || 9);
