@@ -19,7 +19,7 @@ const Footer = () => {
           <Link href="/page/help">Help</Link>
         </div>
         <div className="flex justify-center text-sm">
-          <p> © 2000 - 2024, {APP_NAME}, Inc. or its affiliates</p>
+          <p> © 2024 - 2025, {APP_NAME}, Inc. or its affiliates</p>
         </div>
         <div className="mt-8 flex justify-center text-sm text-gray-400">
           GF, HSR LAYOUT, BANGALORE, KARNATAKA | INDIA
